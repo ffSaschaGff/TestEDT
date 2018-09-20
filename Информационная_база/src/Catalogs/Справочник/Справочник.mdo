@@ -31,6 +31,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Справочник.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="31dcf5f2-54d7-4236-a9ed-52712639961e">
     <name>Реквизит</name>
     <synonym>
@@ -73,4 +74,13 @@
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <forms uuid="7e2f7bce-5e44-4969-82c8-07e04d31895c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
